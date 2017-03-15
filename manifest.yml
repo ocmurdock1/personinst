@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: personinst
+  host: personinst
+  disk_quota: 1024M
+  services:
+  - personinst-personality_insights
